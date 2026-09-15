@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://xml.kishou.go.jp/jmaxml1/" xmlns:jmx="http://xml.kishou.go.jp/jmaxml1/"
+  xmlns:jmx_add="http://xml.kishou.go.jp/jmaxml1/addition1/">
+  <Control>
+    <Title>府県天気概況</Title>
+    <DateTime>2026-07-23T07:37:31Z</DateTime>
+    <Status>通常</Status>
+    <EditorialOffice>気象庁本庁</EditorialOffice>
+    <PublishingOffice>気象庁</PublishingOffice>
+  </Control>
+  <Head xmlns="http://xml.kishou.go.jp/jmaxml1/informationBasis1/">
+    <Title>天気概況</Title>
+    <ReportDateTime>2026-07-23T16:37:00+09:00</ReportDateTime>
+    <TargetDateTime>2026-07-23T16:37:00+09:00</TargetDateTime>
+    <EventID />
+    <InfoType>発表</InfoType>
+    <Serial />
+    <InfoKind>平文情報</InfoKind>
+    <InfoKindVersion>1.0_0</InfoKindVersion>
+    <Headline>
+      <Text />
+    </Headline>
+  </Head>
+  <Body xmlns="http://xml.kishou.go.jp/jmaxml1/body/meteorology1/">
+    <TargetArea xmlns:jmx_eb="http://xml.kishou.go.jp/jmaxml1/elementBasis1/"
+      codeType="気象情報／府県予報区・細分区域等">
+      <Name>東京都</Name>
+      <Code>130000</Code>
+    </TargetArea>
+    <Notice />
+    <Comment>
+      <Text type="本文"> 関東甲信地方は、高気圧に緩やかに覆われていますが、湿った空気の影響を受けています。
+
+        東京地方は、晴れや曇りで、雨の降っている所があります。
+        ２３日は、高気圧に緩やかに覆われますが、気圧の谷や湿った空気の影響を受ける見込みです。このため、晴れ夜曇りで、夜のはじめ頃まで雷を伴い非常に激しい雨の降る所があるでしょう。
+        ２４日は、高気圧に緩やかに覆われますが、前線が日本海から東日本にのび、湿った空気の影響を受ける見込みです。このため、曇りで夕方から夜のはじめ頃まで雨となり、雷を伴い激しく降る所があるでしょう。</Text>
+    </Comment>
+  </Body>
+</Report>
