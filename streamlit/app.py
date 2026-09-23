@@ -125,18 +125,20 @@ def makeDF1(data):
 # ---------------------------------------
 def makeDF2(data):
     st.subheader("気温")
-    n = min(len(data[2]["time"]), len(data[2]["temp_min"]), len(data[2]["temp_max"]))
+    n = min(len(data[2]["time"]), len(data[2]["temp_min"]), len(data[2]["temp_max"]), len(data[2]["temp_max2"]))
     cols = st.columns(n)
-    for col, dt, mn, mx in zip(
+    for col, dt, mn, mx, mx2 in zip(
         cols,
         data[2]["time"][:n],
         data[2]["temp_min"][:n],
         data[2]["temp_max"][:n],
+        data[2]["temp_max2"][:n],
     ):
         with col:
             st.markdown(f"**{pd.to_datetime(dt).strftime('%m/%d')}**")
             st.metric(label="朝の最低気温", value=f"{mn}℃")
             st.metric(label="日中の最高気温", value=f"{mx}℃")
+            st.metric(label="最高気温", value=f"{mx2}℃")
 
 # ---------------------------------------
 def makeDF3(data):

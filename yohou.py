@@ -100,6 +100,9 @@ def loopProp(dic_prop):
     elif dtype == '日中の最高気温':
         key_name = 'temp_max'
         result.append(dic_prop[pre + 'TemperaturePart'][pre2 + 'Temperature']['#text'])
+    elif dtype == '最高気温':
+        key_name = 'temp_max2'
+        result.append(dic_prop[pre + 'TemperaturePart'][pre2 + 'Temperature']['#text'])
     elif dtype == '３時間内卓越天気':
         key_name = 'weather_3hour'
         for i in range(len(dic_prop[pre + 'WeatherPart'][pre2 + 'Weather'])):
