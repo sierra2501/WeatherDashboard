@@ -20,3 +20,8 @@
 - [jma_xml.py] Atomフィードを取得して更新日を確認します。
 - [yohou.py] 府県天気予報（R1）を取得します。
 - [gaikyo.py] 府県天気概況を取得します。
+
+## ライセンス
+
+Copyright (c) 2026 sierra
+Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
