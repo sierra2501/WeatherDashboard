@@ -23,5 +23,5 @@
 
 ## ライセンス
 
-Copyright (c) 2026 sierra
+Copyright (c) 2026 sierra2501
 Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
